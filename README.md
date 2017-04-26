@@ -81,30 +81,23 @@ NOTES
     
     -------------------------- EXAMPLE 1 --------------------------
     
-    PS C:\PSScript >.\count-usrprof.ps1 -UserProfileDir 
-    "\\DOMAIN.LOCAL\Citrix\UserProfiles"
+    PS C:\PSScript >.\count-usrprof.ps1 -UserProfileDir "\\DOMAIN.LOCAL\Citrix\UserProfiles"
     
     Will iterate through user folders under \\DOMAIN.LOCAL\Citrix\UserProfiles
     Output file will be in the current directory.
     
     -------------------------- EXAMPLE 2 --------------------------
     
-    PS C:\PSScript >.\count-usrprof.ps1 -UserProfileDir 
-    "\\DOMAIN.LOCAL\Citrix\UserProfiles" -Subfolder 
-    "\AppData\Microsoft\Office\Recent"
+    PS C:\PSScript >.\count-usrprof.ps1 -UserProfileDir "\\DOMAIN.LOCAL\Citrix\UserProfiles" -Subfolder "\AppData\Microsoft\Office\Recent"
     
-    Will iterate through user folders under 
-    \\DOMAIN.LOCAL\Citrix\UserProfiles\<USERID>\AppData\Microsoft\Office\Recent
+    Will iterate through user folders under \\DOMAIN.LOCAL\Citrix\UserProfiles\<USERID>\AppData\Microsoft\Office\Recent
     Output file will be in the current directory.
     
     -------------------------- EXAMPLE 3 --------------------------
     
-    PS C:\PSScript >.\count-usrprof.ps1 -UserProfileDir 
-    "\\DOMAIN.LOCAL\Citrix\UserProfiles" -Subfolder 
-    "\AppData\Microsoft\Office\Recent" -Outputfolder "C:\logs\"
+    PS C:\PSScript >.\count-usrprof.ps1 -UserProfileDir "\\DOMAIN.LOCAL\Citrix\UserProfiles" -Subfolder  "\AppData\Microsoft\Office\Recent" -Outputfolder "C:\logs\"
     
-    Will iterate through user folders under 
-    \\DOMAIN.LOCAL\Citrix\UserProfiles\<USERID>\AppData\Microsoft\Office\Recent
+    Will iterate through user folders under \\DOMAIN.LOCAL\Citrix\UserProfiles\<USERID>\AppData\Microsoft\Office\Recent
     Output file will be to C:\Logs\
     
 # Legal and Licensing

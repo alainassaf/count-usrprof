@@ -1,7 +1,7 @@
 # count-usrprof
 Iterates though user's profile directories and counts number of files in specified sub directory. Also counts total number of profiles.
 
-#Contributions to this script
+# Contributions to this script
 I'd like to highlight the posts that helped me write this scrip below.
 * http://stackoverflow.com/questions/16694662/regex-to-remove-what-ever-comes-in-front-of-using-powershell
 * http://tasteofpowershell.blogspot.com/2009/09/regular-expression-cheat-sheet-for.html

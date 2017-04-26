@@ -10,22 +10,23 @@ I'd like to highlight the posts that helped me write this scrip below.
 
 # $ get-help .\count-usrprof.ps1 -Full
 
-NAME
+NAME<br>
     count-usrprof.ps1
     
-SYNOPSIS
+SYNOPSIS<br>
     Iterates though user's profile directories and counts number of files in specified sub directory. Also counts total number of profiles.
     
     
-SYNTAX
+SYNTAX<br>
     count-usrprof.ps1 [-UserProfileDir] <String> [[-Subfolder] <String>] [[-Outputfolder] <String>] [<CommonParameters>]
     
     
-DESCRIPTION
+DESCRIPTION<br>
     Iterates though user's profile directories and counts number of files in specified sub directory. Also counts total number of profiles.
     
 
-PARAMETERS
+PARAMETERS<br>
+
     -UserProfileDir <String>
         Path to user profile folder location.
         Used to iterate through Users profiles and count files
@@ -58,11 +59,11 @@ PARAMETERS
     <CommonParameters>
         This cmdlet supports the common parameters: Verbose, Debug, ErrorAction, ErrorVariable, WarningAction, WarningVariable, OutBuffer, PipelineVariable, and OutVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216). 
     
-INPUTS
+INPUTS<br>
     None.  You cannot pipe objects to this script.
     
     
-OUTPUTS
+OUTPUTS<br>
     No objects are output from this script.  This script creates a CVS 
     document.
     
